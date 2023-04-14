@@ -1,0 +1,44 @@
+.navbar {
+  background-color: rgba(0, 0, 0, 0.9) !important;
+  width: 100%;
+  z-index: 5; }
+  .navbar img {
+    max-width: 200px !important; }
+  @media (min-width: 320px) and (max-width: 641px) {
+    .navbar .navbar-brand img {
+      max-width: 200px !important; } }
+  .navbar .nav-link-custom {
+    color: #888888;
+    font-weight: lighter !important;
+    text-transform: uppercase;
+    display: inline-block;
+    cursor: pointer;
+    /* 
+      ##Device = Desktops
+      ##Screen = 1281px to higher resolution desktops
+    */
+    /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+    */ }
+    @media (min-width: 1281px) {
+      .navbar .nav-link-custom {
+        padding: .5rem 2.5rem .5rem 0 !important; }
+        .navbar .nav-link-custom:last-of-type {
+          padding: .5rem 0 !important; } }
+    @media (min-width: 1025px) and (max-width: 1280px) {
+      .navbar .nav-link-custom {
+        padding: .5rem 2.5rem .5rem 0 !important; }
+        .navbar .nav-link-custom:last-of-type {
+          padding: .5rem 0 !important; } }
+    .navbar .nav-link-custom:hover {
+      color: #EDBB2A !important; }
+
+.active {
+  color: #EDBB2A !important; }
+
+.navbar-light .navbar-nav .nav-link {
+  color: #888888; }
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important; }

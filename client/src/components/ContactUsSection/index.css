@@ -1,0 +1,21 @@
+.floating {
+    display:block;
+    width:10rem;
+    height:70px;
+    color: white;
+    position: fixed;
+    right:20px;
+    bottom:20px;
+    border-radius:50%;
+    line-height:80px;
+    text-align:center;
+    z-index:999;
+}
+
+.floating a {
+    margin-left: 5%;
+}
+
+.floating a img {
+    width: 3.5em;
+}

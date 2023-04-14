@@ -1,0 +1,16 @@
+@import './utils/theme.scss';
+.dark {
+    // background: $bg-maps !important;
+    h1, h2 {
+        color: $text-navlink-hover;
+    }
+    div {
+        // color: white;
+    }
+    p, ul, label {
+        color: $text-navlink-hover;
+        span {
+            color: white !important;
+        }
+    }
+}

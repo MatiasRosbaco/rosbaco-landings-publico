@@ -1,0 +1,114 @@
+.modulo-360 {
+    position: relative;
+    width: 100% !important;
+    height: 100%; }
+    
+    .modulo-360 .content {
+      position: relative;
+      padding: 6rem 0;
+      /*max-width: 80% !important;*/
+      font-family: 'TT Norms Regular'; }
+  
+    .mobile-content {
+      max-width: 100% !important;
+      padding-right: 0% !important;
+      padding-left: 0% !important;
+    }
+    
+    .mobile-text {
+      padding: 3rem !important;
+    }
+
+    .modulo-360 div img {
+      /*position: absolute;*/
+        position: relative;
+      top: 0px;
+      left: 0px;
+      z-index: 1;
+      width: 100%;
+      height: auto;
+    }
+
+    .modal-dialog {
+      margin: 5% !important;
+      min-height: 90%;
+      min-width: 90%;
+      margin: 0;
+      padding: 0;
+    }
+  
+    .modal-content {
+      height: 85vh;
+    }
+
+    .modal-backdrop.show {
+      opacity: .8 !important;
+    }
+
+    .exit-floating {
+      position:fixed;
+      right:50px;
+      text-align:center;
+      margin-top: -3rem !important;
+    }
+    
+  
+    .exit-floating button {
+      background-color: Transparent;
+      background-repeat:no-repeat;
+      border: none;
+      cursor:pointer;
+      overflow: hidden;
+      outline:none;
+      margin-left: 5%;
+    }
+    
+    .exit-floating button img {
+      width: 3em;
+    }
+
+    .exit-floating button:active{ 
+      background-color: transparent;
+      opacity: .8;
+    }
+
+    @media (max-width: 1025px) {
+      .modal-dialog {
+        margin-top: 10% !important;
+        margin-bottom: 10% !important;
+        margin-left: 4% !important;
+        margin-right: 4% !important;
+      }
+      .exit-floating button img {
+        width: 1.5em;
+        margin-top: 1rem;
+      }
+      .exit-floating {
+        position:fixed;
+        right:50px;
+        text-align:center;
+        margin-top: -3rem !important;
+        margin-right: -8%;
+      }
+    }
+
+
+.img-360 {
+    position:absolute !important;
+    top:25px !important;
+    left:50px !important;
+    width:79px !important;
+    height:79px !important
+}
+
+@media (max-width:481px) {
+    .img-360-mobile {
+        position:absolute !important;
+        top:58px !important;
+        left:25px !important;
+        width:50px !important;
+        height:50px !important
+    }
+}
+
+

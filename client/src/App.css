@@ -1,0 +1,7 @@
+.dark h1, .dark h2 {
+  color: #EDBB2A; }
+
+.dark p, .dark ul, .dark label {
+  color: #EDBB2A; }
+  .dark p span, .dark ul span, .dark label span {
+    color: white !important; }

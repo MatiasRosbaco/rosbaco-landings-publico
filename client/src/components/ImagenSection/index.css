@@ -1,0 +1,17 @@
+.main {
+  position: relative;
+  z-index: 1;
+  background-color: #fff; }
+  .main .content {
+    height: 100vh;
+    padding: 18rem 0; }
+    .main .content h1 {
+      font-weight: 100;
+      color: white;
+      display: inline-block;
+      margin-bottom: 0; }
+    .main .content h2 {
+      margin-top: 0;
+      font-weight: 100;
+      color: white;
+      display: inline-block; }

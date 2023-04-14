@@ -1,0 +1,102 @@
+@font-face {
+  font-family: 'TT Norms Regular';
+  src: url('./fonts/ttnorms-regular-webfont.woff2') format('woff2'),
+  url('./fonts/ttnorms-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+/*@font-face {
+  font-family: 'TT Norms Regular';
+  src: local('TT Norms Regular'),
+    local('TT Norms Regular'),
+    local('TT Norms Regular'),
+    url(./fonts/TTNorms-Regular.otf) format('truetype');
+}*/
+
+body {
+  font-family: 'TT Norms Regular', sans-serif !important;
+  font-variant-ligatures: none;
+  /* 
+  ##Device = Desktops Baskerville
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+
+  @media (min-width: 1281px) {
+    .swiper-pagination-bullet {
+      margin: 0 2rem !important;
+      background: transparent;
+      border: 1px solid #707070 !important;
+    }
+
+    .swiper-pagination-bullet-active {
+      background: #707070;
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next {
+      color: #707070;
+
+      &:focus {
+        outline-color: none;
+      }
+    }
+
+    .swiper-button-next {
+      right: 5rem;
+    }
+
+    .swiper-button-prev {
+      left: 5rem;
+    }
+  }
+
+  /* 
+##Device = Laptops, Desktops
+##Screen = B/w 1025px to 1280px
+*/
+
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    .swiper-pagination-bullet {
+      margin: 0 2rem !important;
+      background: transparent;
+      border: 1px solid #707070 !important;
+    }
+
+    .swiper-pagination-bullet-active {
+      background: #707070;
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next {
+      color: #EDBB2A;
+
+      &:focus {
+        outline-color: none;
+      }
+    }
+
+  }
+
+  .swiper-pagination-bullet {
+    margin: 0 2rem !important;
+    background: transparent;
+    border: 1px solid #707070 !important;
+  }
+
+  .swiper-pagination-bullet-active {
+    background: #707070;
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    color: #EDBB2A;
+
+    &:focus {
+      outline-color: none;
+    }
+  }
+
+}

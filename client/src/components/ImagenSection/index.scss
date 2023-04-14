@@ -1,0 +1,28 @@
+@import '../../utils/theme.scss';
+
+.main {
+    // height: 100vh;
+    position: relative;
+    z-index: 1;
+    background-color: #fff;
+
+    .content {
+        height: 100vh;
+        padding: 18rem 0;
+
+        h1 {
+            // background-color: #000;
+            font-weight: 100;
+            color: white;
+            display: inline-block;
+            margin-bottom: 0;
+        }
+
+        h2 {
+            margin-top: 0;
+            font-weight: 100;
+            color: white;
+            display: inline-block;
+        }
+    }
+}

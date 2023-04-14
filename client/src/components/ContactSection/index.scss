@@ -1,0 +1,82 @@
+@import '../../utils/theme.scss';
+
+.contact-section {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    .row.display-flex {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .row.display-flex > [class*='col-'] {
+        flex-grow: 1;
+      }
+    .react-datepicker-wrapper {
+        display: block;
+
+        .react-datepicker-ignore-onclickoutside,
+        input {
+            border-radius: 0 !important;
+            border-color: #707070 !important;
+            display: block;
+            width: 60%;
+            height: calc(1.5em + .75rem + 2px);
+            padding: .375rem .75rem;
+            font-weight: 400;
+            line-height: 1.5;
+            color: #495057;
+            background-color: #fff;
+            background-clip: padding-box;
+            border: 1px solid #ced4da;
+            border-radius: .25rem;
+            transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+        }
+    }
+
+    .content {
+        position: relative;
+        height: 100%;
+        padding: 6rem 0;
+
+        .info {
+            padding-left: 3rem;
+
+            p {
+                color: $bg-maps;
+            }
+
+            ul {
+                list-style: none;
+                padding-left: 0;
+            }
+            img {
+                max-width: 75%;
+                padding-bottom: 10px;
+            }
+        }
+
+    }
+
+    .form-control {
+        border-radius: 15px;
+        border-color: #707070;
+    }
+
+    .btn {
+        text-transform: uppercase;
+        color: $bg-maps;
+        background-color: $text-navlink-hover;
+        border-color: $text-navlink-hover;
+        border-radius: 0;
+
+        &:hover,
+        :active,
+        :focus {
+            background-color: $text-navlink-hover;
+            border-color: $text-navlink-hover;
+        }
+    }
+    .contact-container {
+        /* max-width : 80%;*/
+    }
+}

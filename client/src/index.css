@@ -1,0 +1,66 @@
+@font-face {
+  font-family: 'TT Norms Regular';
+  src: url("./fonts/ttnorms-regular-webfont.woff2") format("woff2"), url("./fonts/ttnorms-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+/*@font-face {
+  font-family: 'TT Norms Regular';
+  src: local('TT Norms Regular'),
+    local('TT Norms Regular'),
+    local('TT Norms Regular'),
+    url(./fonts/TTNorms-Regular.otf) format('truetype');
+}*/
+body {
+  font-family: 'TT Norms Regular', sans-serif !important;
+  font-variant-ligatures: none;
+  /* 
+  ##Device = Desktops Baskerville
+  ##Screen = 1281px to higher resolution desktops
+*/
+  /* 
+##Device = Laptops, Desktops
+##Screen = B/w 1025px to 1280px
+*/ }
+  @media (min-width: 1281px) {
+    body .swiper-pagination-bullet {
+      margin: 0 2rem !important;
+      background: transparent;
+      border: 1px solid #707070 !important; }
+    body .swiper-pagination-bullet-active {
+      background: #707070; }
+    body .swiper-button-prev,
+    body .swiper-button-next {
+      color: #707070; }
+      body .swiper-button-prev:focus,
+      body .swiper-button-next:focus {
+        outline-color: none; }
+    body .swiper-button-next {
+      right: 5rem; }
+    body .swiper-button-prev {
+      left: 5rem; } }
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    body .swiper-pagination-bullet {
+      margin: 0 2rem !important;
+      background: transparent;
+      border: 1px solid #707070 !important; }
+    body .swiper-pagination-bullet-active {
+      background: #707070; }
+    body .swiper-button-prev,
+    body .swiper-button-next {
+      color: #EDBB2A; }
+      body .swiper-button-prev:focus,
+      body .swiper-button-next:focus {
+        outline-color: none; } }
+  body .swiper-pagination-bullet {
+    margin: 0 2rem !important;
+    background: transparent;
+    border: 1px solid #707070 !important; }
+  body .swiper-pagination-bullet-active {
+    background: #707070; }
+  body .swiper-button-prev,
+  body .swiper-button-next {
+    color: #EDBB2A; }
+    body .swiper-button-prev:focus,
+    body .swiper-button-next:focus {
+      outline-color: none; }
